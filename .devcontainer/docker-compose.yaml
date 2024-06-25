@@ -7,11 +7,11 @@ app:
     network_mode: 'host'
     volumes:
         - ..:/var/www/html
-        build:
-            context: .
-            dockerfile: 'Dockerfile' 
-            environment:
-                APACHE_DOCUMENT_ROOT: '/var/www/html/public'
-                COMPOSER_ALLOW_SUPERUSER: 1
-                COMPOSER_ALLOW_XDEBUG: 1
+    build:
+        context: .
+        dockerfile: 'Dockerfile' 
+        environment:
+            APACHE_DOCUMENT_ROOT: '/var/www/html/public'
+            COMPOSER_ALLOW_SUPERUSER: 1
+            COMPOSER_ALLOW_XDEBUG: 1
                 
