@@ -6,11 +6,5 @@
         "psr-4": {
             "Gustav1994\\DecisionTable\\": "src/"
         }
-    },
-    "authors": [
-        {
-            "name": "y"
-        }
-    ],
-    "require": {}
+    }
 }
