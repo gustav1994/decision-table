@@ -1,0 +1,16 @@
+{
+    "name": "gustav1994/decision-table",
+    "description": "DMN Decision Table and Executor engine",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Gustav1994\\DecisionTable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "y"
+        }
+    ],
+    "require": {}
+}
